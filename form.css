@@ -1,0 +1,43 @@
+body{
+  background-color: #bdc3c7;
+}
+h1{
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+  margin-top: -5px;
+}
+.text{
+  font-family: 'Lemonada', cursive;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+fieldset div {
+  flex-direction: column;
+  margin: 9px;
+  font-family: 'Lemonada', cursive;
+}
+div{
+  font-family: 'Lemonada', cursive;
+  margin:10px;
+}
+div{
+  font-family: 'Lemonada', cursive;
+  margin: 5%;
+}
+textarea{
+  font-family: 'Lemonada', cursive;
+  height: 100px;
+  width: 250px;
+}
+button{
+  font-family: 'Lemonada', cursive;
+  color: #419A13;
+  padding: 4px 101px;
+
+}
+div{
+  font-family: 'Lemonada', cursive;
+  margin-top: 12px;
+}

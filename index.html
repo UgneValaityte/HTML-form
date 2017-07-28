@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+</head>
+
+<body class="container">
+   <form action="index.html" method="post">
+     <h1> Sign Up ! </h1>
+
+
+<fieldset>
+<div>
+    <label for="name">Name: </label>
+    <input type"text" id="name" name="user_name">
+</div>
+
+<div>
+    <label for="email">Email: </label>
+    <input type="email" id="mail" name="user_email">
+</div>
+
+<div>
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="user_password">
+  </div>
+
+</fieldset>
+
+<div>
+  <label class="text"> Age: </label><br>
+    <input type="radio" id="under_18" value="under_18" name="user_age">
+    <label for="under_18">Under 18</label> <br>
+    <input type="radio" id="over_18" value="over_18" name="user_age">
+    <label for="over_18">Over 18</label><br>
+  </div>
+
+<div>
+    <label for="bio">About:</label><br>
+      <textarea id="bio" name="user_biograhy"></textarea><br>
+    </div>
+
+    <input type="checkbox" id="terms_of_service" value="user_terms" name="user_terms">
+      <label for="terms_of_service">Accept the Terms Of Service</label><br>
+
+
+    <input type="checkbox" id="newsletter" value="subscribe" name="subscribe">
+      <label for="newsletter">Subscribe for newsletter</label>
+
+<br>
+      <div>
+      <button type="submit"> SUBMIT </button>
+    </div>
+
+
+</form>
+</body>
+</html>
